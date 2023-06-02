@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C02_Vu Nguyen Anh Khoa</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Mẫu nhập thông tin sinh viên</h1>
+        <form action="">
+            <fieldset>
+                <legend>Thông tin cơ bản</legend>
+
+                <label for="name">Họ và tên</label>
+                <input type="text" id="name"> <br><br>
+
+                <label for="dayofbirth">Ngày sinh</label>
+                <input type="date" id="dayofbirth"> <br><br>
+
+                <label>Giới tính</label>
+                <input type="radio" name="gender" id="male"> <label for="male">Nam</label>
+                <input type="radio" name="gender" id="female"> <label for="female">Nữ</label>
+                <input type="radio" name="gender" id="other"> <label for="other">Khác</label>  <br><br>
+
+                <label>Tổ hợp xét tuyển</label> <br>
+                <input type="checkbox" id="math"> <label for="math">Toán</label> <br>
+                <input type="checkbox" id="physics"> <label for="physics">Lý</label> <br>
+                <input type="checkbox" id="chemistry"> <label for="chemistry">Hóa</label> <br>
+                <input type="checkbox" id="english"> <label for="english">Anh</label> <br><br>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Thông tin liên lạc</legend>
+
+                <label for="mail">Email: </label> <input type="email" id="mail"> <br><br>
+                <label for="tel">Số điện thoại: </label> <input type="text" id="tel">
+            </fieldset>
+            <br>
+
+            <input type="button" id="btn" value="Gửi">
+        </form>
+    </div>
+</body>
+</html>

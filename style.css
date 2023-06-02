@@ -1,0 +1,25 @@
+body{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#container{
+    background-color: rgb(113, 194, 190);
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+h1{
+    margin-top: 0px;
+}
+
+#btn{
+    background-color: darkkhaki;
+    border: none;
+    font-weight: bold;
+    padding: 5px 8px 5px 8px;
+}
+#btn:hover{
+    background-color: rgb(186, 174, 84);
+}
